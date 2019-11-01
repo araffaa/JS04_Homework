@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8"/>
+  <title>About Me</title>
+</head>
+<body>
+    Select Action:<select id="ddlActions">
+        <option value="1" selected="selected">Change Text To Arial</option>
+        <option value="2">Change Text To sans-serif</option>
+        <option value="3">Change Background Color</option>
+        <option value="4">Adding Value to Nickname</option>
+        <option value="5">Adding Value to Favorites</option>
+        <option value="6">Adding Value to Hometown</option>
+        <option value="7">Change Color of all selectors</option>
+      </select>  <button type="button" id="txtbtn"  onclick="actionConfirm()">Confirm</button>
+
+  <h1>About Me</h1>
+
+  
+  <ul>
+    <li>Nickname: <span id="nickname"></span>
+    <li>Favorites:  <span id="favorites"></span>
+    <li>Hometown: <span id="hometown"></span>
+   </ul>
+   <!-- <script src="main.js"></script> -->
+  </body>
+ <script src="script.js"></script>
+</html>
